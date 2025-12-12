@@ -37,7 +37,7 @@ const Method: React.FC = () => {
               ))}
             </ul>
 
-            <Button href="#sessao">
+            <Button href="https://cal.com/panther-consultoria-2/60min" target="_blank" rel="noopener noreferrer">
               Quero reprogramar minha vida financeira
             </Button>
           </div>

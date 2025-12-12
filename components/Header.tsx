@@ -23,7 +23,7 @@ const Header: React.FC = () => {
         </div>
         
         <div className="hidden md:block">
-           <Button variant="primary" className="py-2 px-6 text-sm" href="#sessao">
+           <Button variant="primary" className="py-2 px-6 text-sm" href="https://cal.com/panther-consultoria-2/60min" target="_blank" rel="noopener noreferrer">
              Agendar Sessão
            </Button>
         </div>

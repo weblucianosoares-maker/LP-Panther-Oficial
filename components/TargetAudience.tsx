@@ -37,7 +37,7 @@ const TargetAudience: React.FC = () => {
           </div>
 
           <div className="text-center">
-            <Button href="#sessao" className="w-full md:w-auto">
+            <Button href="https://cal.com/panther-consultoria-2/60min" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto">
               Sou esse perfil – quero avançar
             </Button>
           </div>

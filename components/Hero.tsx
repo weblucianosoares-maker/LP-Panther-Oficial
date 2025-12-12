@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button href="#sessao">
+              <Button href="https://cal.com/panther-consultoria-2/60min" target="_blank" rel="noopener noreferrer">
                 Agendar minha Sessão de Alinhamento
               </Button>
               <Button variant="outline" href="#metodo">

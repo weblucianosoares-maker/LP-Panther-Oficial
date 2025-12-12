@@ -5,6 +5,8 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   fullWidth?: boolean;
   children: React.ReactNode;
   href?: string;
+  target?: string;
+  rel?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({ 
@@ -13,6 +15,8 @@ const Button: React.FC<ButtonProps> = ({
   children, 
   className = '',
   href,
+  target,
+  rel,
   ...props 
 }) => {
   const baseStyles = "inline-flex items-center justify-center px-8 py-4 text-base font-bold transition-all duration-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2";
@@ -27,7 +31,13 @@ const Button: React.FC<ButtonProps> = ({
 
   if (href) {
     return (
-      <a href={href} className={combinedStyles}>
+      <a 
+        href={href} 
+        className={combinedStyles} 
+        target={target} 
+        rel={rel}
+        {...(props as React.AnchorHTMLAttributes<HTMLAnchorElement>)}
+      >
         {children}
       </a>
     );

@@ -43,7 +43,7 @@ const SessionInfo: React.FC = () => {
         </div>
 
         <div className="flex justify-center">
-          <Button fullWidth className="md:w-auto text-lg py-5 px-10 shadow-blue-500/40" href="#">
+          <Button fullWidth className="md:w-auto text-lg py-5 px-10 shadow-blue-500/40" href="https://cal.com/panther-consultoria-2/60min" target="_blank" rel="noopener noreferrer">
             Agendar minha Sessão de Alinhamento
           </Button>
         </div>

@@ -67,7 +67,7 @@ const FaqFooter: React.FC = () => {
               <span className="text-[#4568DC]">É falta de alinhamento emocional financeiro.</span>
             </h3>
             
-            <Button href="#" className="w-full md:w-auto flex items-center justify-center gap-3">
+            <Button href="https://cal.com/panther-consultoria-2/60min" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto flex items-center justify-center gap-3">
               <MessageCircle className="w-5 h-5" />
               Quero reprogramar meu padrão emocional
             </Button>

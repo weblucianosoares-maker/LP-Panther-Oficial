@@ -50,7 +50,7 @@ const Testimonials: React.FC = () => {
               ))}
             </div>
 
-            <Button href="#sessao">
+            <Button href="https://cal.com/panther-consultoria-2/60min" target="_blank" rel="noopener noreferrer">
               Quero viver essa transformação
             </Button>
           </div>
