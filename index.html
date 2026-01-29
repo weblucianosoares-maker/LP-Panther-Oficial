@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO e Metadados para Compartilhamento -->
+    <title>Panther - Inteligência Emocional Financeira</title>
+    <meta name="description" content="Reprograme seus padrões emocionais financeiros. A Panther une inteligência emocional e gestão financeira para quem ganha bem mas não vê o dinheiro sobrar.">
+    
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Panther - Inteligência Emocional Financeira">
+    <meta property="og:description" content="O problema não é dinheiro, é emocional. Descubra o método que alinha sua mente e suas finanças.">
+    <meta property="og:image" content="https://picsum.photos/seed/brain-finance/1200/630">
+
+    <!-- Favicon (Simples círculo azul) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2250%22 fill=%22%234568DC%22/></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind via CDN (Mantendo layout inalterado) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+            },
+            colors: {
+              panther: {
+                blue: '#4568DC',
+                light: '#7A8BD1',
+                bg: '#F3F4FF',
+                text: '#111111',
+                secondary: '#555555',
+                border: '#E5E7EB'
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        color: #111111;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.560.0",
+    "vite": "https://esm.sh/vite@^7.2.7",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- Script de entrada para o Vite -->
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
